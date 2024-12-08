@@ -58,7 +58,7 @@ The dataset includes academic integrity case records collected at UCW University
 - Augment the dataset by adding external metadata (e.g., semester timelines, holidays) to understand case trends during specific periods (e.g., exam weeks).  
 - Enrich evidence-based cases with detailed categorization (e.g., type of evidence provided).
 
-- Data Enriching pipeline
+- Data Governance pipeline
   ![enrich Pipeline](Project1-images/DataEnrichingPipeline.png)
 
 ### **4. Data Visualization and Dashboards**  
