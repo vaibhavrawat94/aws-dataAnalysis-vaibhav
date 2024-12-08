@@ -51,16 +51,26 @@ The dataset includes academic integrity case records collected at UCW University
   - Data Pipeline Design
     ![data pipeline design](Project1-images/DataPipeline.png)
 
+    Data Pipeline
+    ![pipeline](Project1-images/ETLPipeline.png)
+
 ### **3. Data Enrichment**  
 - Augment the dataset by adding external metadata (e.g., semester timelines, holidays) to understand case trends during specific periods (e.g., exam weeks).  
-- Enrich evidence-based cases with detailed categorization (e.g., type of evidence provided).  
+- Enrich evidence-based cases with detailed categorization (e.g., type of evidence provided).
+
+- Data Enriching pipeline
+  ![enrich Pipeline](Project1-images/DataEnrichingPipeline.png)
 
 ### **4. Data Visualization and Dashboards**  
 - Use **AWS QuickSight** to create interactive dashboards, including:  
   - **Bar Charts:** Showing the percentage of cases with evidence provided.  
   - **Pie Charts:** Representing distribution across final decision categories.  
   - **Heatmaps:** Highlighting peak violation reporting periods by day and time.  
-  - **Line Graphs:** Trend analysis of case submissions over the year.  
+  - **Line Graphs:** Trend analysis of case submissions over the year.
+
+    DashBoard Created
+    ![dash1](Project1-images/Dashboard1.png)
+    ![dash2](Project1-images/Dashboard2.png)
 
 ### **5. Insights and Findings**  
 - **Key Findings:**  
