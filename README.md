@@ -35,14 +35,21 @@ The dataset includes academic integrity case records collected at UCW University
 ### **1. Data Collection and Preparation**  
 - **Data Ingestion:** Utilize AWS **S3** for storing the case records in CSV format. Data is ingested using an AWS Glue job to extract information into a structured format.  
 - **Data Profiling:** Use AWS **DataBrew** to generate insights into the dataset’s structure, completeness, and anomalies.  
-- **Data Cleaning:** Handle missing values, ensure correct data types, and remove duplicates using AWS Glue scripts.  
+- **Data Cleaning:** Handle missing values, ensure correct data types, and remove duplicates using AWS Glue scripts.
+- Data Ingestion
+  ![data ingestion](Project1-images/Ingestion.png)
+
+  Data Cleaning and Profiling
+  ![data cleaning and profiling](Project1-images/Cleaning-Profiling.png)
 
 ### **2. Descriptive Statistics**  
 - Calculate key metrics, including:  
   - Percentage of cases where evidence was provided.  
   - Distribution of final decisions by the type of violation.  
   - Group cases by evidence status and summarize the final decision rates.  
-  - Average time taken to reach a final decision.  
+  - Average time taken to reach a final decision.
+  - Data Pipeline Design
+    ![data pipeline design](Project1-images/DataPipeline.png)
 
 ### **3. Data Enrichment**  
 - Augment the dataset by adding external metadata (e.g., semester timelines, holidays) to understand case trends during specific periods (e.g., exam weeks).  
